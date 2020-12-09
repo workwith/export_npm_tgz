@@ -1,5 +1,20 @@
-[
-    "bn.js",
-    "browserslist",
-    "caniuse-lite"
-]
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "qs": "^6.9.4",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3"
+  }
+}
